@@ -1,0 +1,13 @@
+{
+  "development": {
+    "database": "passport-local-token-auth_dev",
+    "host": "localhost"
+  },
+  "test": {
+    "database": "passport-local-token-auth_test",
+    "host": "localhost"
+  },
+  "production": {
+    "use_env_variable": "MONGO_URL"
+  }
+}
